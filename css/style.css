@@ -56,7 +56,6 @@ a{
 table{
     border: 2px solid #000000;
     border-radius: 10px;
-    padding: 10px;
     margin: auto;
 }
 
@@ -81,7 +80,11 @@ table{
 }
 
 td{
-  padding: 15px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  border-width: 2px;
+  border-top: 2px solid #000000;
 }
 
 tr{
@@ -96,18 +99,11 @@ thead tr:first-child th:first-child{}
 footer{
   width:100%;
   min-height: 75px;
-  background:#000000;
-  color: #FFFFFF;
+  background-color:#000000;
   position: fixed;
-  left:0px;
-  bottom:0px;
-  text-align: center;
-  
+  left:0;
+  bottom:0;
+  text-align:center;
+  color: #FFFFFF;
 }
 
-footer p{
-  color: #FFFFFF;
-  text-align:center;
-  padding-left: 10px;
-  padding-right: 10px;
-}
