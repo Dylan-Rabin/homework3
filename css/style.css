@@ -54,16 +54,23 @@ a{
 
 table{
     border: 2px solid #000000;
+    padding: 10px;
 }
 
 .colhead{
   background-color: #7e0830;
   color: #FFFFFF;
-  
+  min-width: 125px;
+  padding: 10px;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .rowhead{
-
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000000;
+  /* Only use the border property on the sides that aren’t touching an existing border. */
 }
 
 td{
@@ -82,8 +89,11 @@ thead tr:first-child th:first-child{}
 
 footer{
   width:100%;
+  min-height: 75px;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
+  position: absolute;
+  bottom: 0px;
 }
 
