@@ -71,10 +71,8 @@ table{
 }
 
 .rowhead{
-  border-width: 2px;
-  /* Only use the border property on the sides that aren’t touching an existing border. */
-  border-top: solid #000000;
-  border-right: solid #000000;
+  border-right: 2px solid #000000;
+  border-top: 2px solid #000000;
   vertical-align: middle;
   text-align: center;
   padding: 10px;
